@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.card {
+    padding: 20px;
+    width: 300px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+}
+.card:hover{
+padding: 1cm;
+transition: 0.5s;
+animation-range: 5;
+
+}
+.button1{
+    background-color: rgb(110, 87, 142);
+    color: aliceblue;
+    font-weight: 200;
+    font-family: fantasy;
+    border-radius: 1cap;
+    border-color: black;
+    padding: 0.2cm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+
+}
+.button1:hover{
+    color:rgb(48, 5, 107);
+    transition: 500ms;
+    box-sizing: border-box;
+    font-size: larger;
+}
